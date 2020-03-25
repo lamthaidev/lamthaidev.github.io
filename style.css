@@ -1,16 +1,104 @@
+/*import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700&display=swap');
+
 *{
-  margin-left:0;
-  padding: 0;
-  box-sizing: border-box;
+	box-sizing: border-box;
+}
+:root{
+	--lato:"Lato", sans-serif;
+	--bg-color:#000015;
+	--color: #fff;
+	--font-normal:300;
+	--bg-nav:#010204;
 }
 
+.bg-nav{
+	background-color: var(--bg-nav);
+	opacity: 0.7;
+}
 html,
 body{
-  background-color: #fff;
-  color: #555;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  font-size: 20px;
+  background-color: var(--bg-color);
+  color:var(--color);
+  font-family:var(--Roboto);
+  font-weight: var(--font-normal);
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
 }
+/*----------HEADER---------------*/
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/bg-header-hero.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.navbar-nav .nav-link{
+	color:var(--color);
+	font-weight: var(--font-normal);
+	margin-right: 50px;
+	padding: 10px 0 !important;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+	text-align: center;
+}
+.navbar-nav .nav-link:hover{
+	border-bottom: 2px solid #fff;
+	padding: 0px;
+}
+.navbar-toggler{
+	border:none !important;
+}
+.box-hero{
+	color:var(--color);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.box-hero img{
+	float: left;
+	margin-right: 30px;
+}
+.box-info{
+	float: right;
+	font-weight: var(--font-normal);
+}
+.box-info h1{
+	font-weight:400;
+}
+.box-info span{
+	font-size:1.25rem;
+	padding-bottom: 10px;
+}
+.fas{
+	font-size: 1rem;
+	margin-right: 10px;
+}
+.fab{
+	font-size: 2rem;
+	margin-right: 10px;
+}
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-linkedin,
+.fa-skype{
+	transition: color 0.2s;
+}
+.fa-facebook-square:hover{
+	color: #3b5998;
+	cursor: pointer;
+}
+.fa-twitter-square:hover{
+	color: #00aced;
+	cursor: pointer;
+}
+.fa-linkedin:hover{
+	color:#2867B2;
+	cursor: pointer;
+}
+.fa-skype:hover{
+	color:#00AFF0;
+	cursor: pointer;
+}
+/*----------ABOUT US---------------*/
