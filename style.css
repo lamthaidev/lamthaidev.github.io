@@ -98,6 +98,17 @@ header{
 #about-me{
 	padding: 50px 0;
 	background-color:var(--bg-color);
+	color: #fff;
+}
+.photo-about{
+	max-width:457px;
+	max-height:548px;
+	margin-right:30px;
+	margin-bottom:30px;
+}
+.info-about{
+	max-width:457px;
+	max-height:548px;
 }
 
 
