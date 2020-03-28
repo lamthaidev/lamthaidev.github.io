@@ -97,7 +97,7 @@ header{
 
 /*----------SECTION ABOUT US---------------*/
 #about-me{
-	padding: 50px 0;	
+	padding: 50px 0;
 	color: #fff;
 	font-family:var(--Roboto);
 	font-weight: var(--font-normal);
@@ -122,26 +122,26 @@ header{
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;	
+	background-attachment: fixed;
 }
 .cicle-skill{
 	width:100px;
 	height:100px;
 	border-radius:50%;
 	background-color:#fff;
-	border: 5px solid #00dcbc;
+	border: 5px solid #1abc9c;
 	position:relative;
 	margin-bottom:10px;
 
 }
 .progress-bar{
-	background-color:#00dcbc !important;
+	background-color:#1abc9c !important;
 }
 .cicle-skill span{
 	position:absolute;
 	top:35%;
 	left:35%;
-	color: #0ca992;
+	color: #2c3e50;
 }
 .tech-skills p{
 	margin-bottom:5px !important;
@@ -149,34 +149,42 @@ header{
 }
 .progress{
 	margin-bottom:30px;
-	border-radius:10px;
+	border-radius:1rem !important;
+	height: 1.5rem !important;
 }
 .tech-skills h2,
 .pro-skills h2{
 	text-align:center;
 	margin-bottom:20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*----------SECTION WHAT I DO---------------*/
+#my-job{
+	font-family:var(--Roboto);
+	font-weight: var(--font-normal);
+	color:var(--color);
+	width:100%;
+	height: 300px;
+	text-align: center;
+	margin: 70px 0;
+}
+#my-job h2{
+	padding: 45px 0;
+}
+.box-job{
+	padding: 	0 10px 30px 10px;
+	background-color: #030320;
+}
+.box-job .fas{
+	font-size:3rem;
+	margin: 30px 0;
+	color:#1abc9c;
+}
+.box-job h3{
+	font-size:1.5rem;
+	margin-bottom: 30px;
+}
+.box-job p{
+	font-size:1rem;
+	line-height: 1.25em;
+	margin-bottom: 30px;
+}
