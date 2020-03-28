@@ -97,6 +97,7 @@ header{
 /*----------ABOUT US---------------*/
 #about-me{
 	padding: 50px 0;
+	background-color:var(--bg-color);
 }
 
 
