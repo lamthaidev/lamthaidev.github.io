@@ -49,19 +49,12 @@ header{
 .navbar-toggler{
 	border:none !important;
 }
-.box-hero{
-	color:var(--color);
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-.box-hero img{
-	float: left;
+
+.box-avata{
 	margin-right: 30px;
 }
 .box-info{
-	float: right;
+	color: #fff;
 	font-weight: var(--font-normal);
 }
 .box-info h1{
@@ -102,3 +95,31 @@ header{
 	cursor: pointer;
 }
 /*----------ABOUT US---------------*/
+#about-me{
+	padding: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
