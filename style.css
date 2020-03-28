@@ -18,7 +18,7 @@
 }
 html,
 body{
-  background-color: var(--bg-color);
+  background-color: var(--bg-color) !important;
   color:var(--color);
   font-family:var(--Roboto);
   font-weight: var(--font-normal);
@@ -94,11 +94,13 @@ header{
 	color:#00AFF0;
 	cursor: pointer;
 }
-/*----------ABOUT US---------------*/
+
+/*----------SECTION ABOUT US---------------*/
 #about-me{
-	padding: 50px 0;
-	background-color:var(--bg-color);
+	padding: 50px 0;	
 	color: #fff;
+	font-family:var(--Roboto);
+	font-weight: var(--font-normal);
 }
 .photo-about{
 	max-width:457px;
@@ -110,7 +112,50 @@ header{
 	max-width:457px;
 	max-height:548px;
 }
+/*----------SECTION MY SKILL---------------*/
+#my-skill{
+	padding: 50px 0;
+	color: #fff;
+	font-family:var(--Roboto);
+	font-weight: var(--font-normal);
+	background-image: url(img/bg-skills.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;	
+}
+.cicle-skill{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	background-color:#fff;
+	border: 5px solid #00dcbc;
+	position:relative;
+	margin-bottom:10px;
 
+}
+.progress-bar{
+	background-color:#00dcbc !important;
+}
+.cicle-skill span{
+	position:absolute;
+	top:35%;
+	left:35%;
+	color: #0ca992;
+}
+.tech-skills p{
+	margin-bottom:5px !important;
+	margin-top:35px;
+}
+.progress{
+	margin-bottom:30px;
+	border-radius:10px;
+}
+.tech-skills h2,
+.pro-skills h2{
+	text-align:center;
+	margin-bottom:20px;
+}
 
 
 
