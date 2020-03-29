@@ -119,7 +119,6 @@ header{
 	font-family:var(--Roboto);
 	font-weight: var(--font-normal);
 	background-image: url(img/bg-skills.jpg);
-	height: 100vh;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -190,8 +189,16 @@ header{
 	margin-bottom: 30px;
 }
 /*----------SECTION PORTFOLIO---------------*/
+#my-portfolio{
+	padding:45px 0;
+	margin-bottom: 70px;
+	background-image: url(img/bg-portfolio.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
 #my-portfolio h2{
-	margin: 70px 0;
+	margin-bottom: 45px;
 	font-family:var(--Roboto);
 	color:var(--color);
 	text-align: center;
