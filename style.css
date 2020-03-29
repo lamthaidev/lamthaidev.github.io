@@ -141,6 +141,7 @@ header{
 }
 .progress-bar{
 	background-color:#1abc9c !important;
+	font-weight: bold !important;
 }
 .tech-skills p{
 	margin-bottom:5px !important;
@@ -166,6 +167,10 @@ header{
 }
 #my-job h2{
 	padding: 45px 0;
+}
+.box-job:hover{
+ border:1px solid #16a085;
+ cursor: pointer;
 }
 .box-job{
 	padding: 	0 10px 30px 10px;
@@ -203,6 +208,7 @@ header{
 	margin-bottom: 45px;
 	text-align: center;
 }
+
 /*----------SECTION CONTACT---------------*/
 #my-contact{
 	color:var(--color);
@@ -236,6 +242,10 @@ header{
 	height: 330px;
 	padding: 25px 0;
 }
+.box-contact:hover{
+	border:1px solid #1abc9c;
+	cursor:pointer;
+}
 .box-contact h3{
 	font-size: 2rem;
 }
@@ -249,6 +259,17 @@ header{
 	color:var(--color);
 	width: 100%;
 }
+#my-contact .btn-send:hover{
+background-color:#16a085;
+}
 #my-contact .map{
 	width:100%;
+}
+/*----------FOOTER---------------*/
+footer{
+	color:var(--color);
+	font-weight: var(--font-normal);
+	text-align: center;
+	height: 70px;
+	line-height: 70px;
 }
