@@ -208,6 +208,37 @@ header{
 	margin-bottom: 45px;
 	text-align: center;
 }
+.box-project{
+	width:100%;
+	max-height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+.box-project .fas{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color:#01f5d1;
+	opacity: 0;
+	font-size: 20px;
+	transition:font-size 0.5s, opacity 0.5s;
+}
+
+.box-project img{
+	width:100%;
+	opacity: 1;
+	transform: scale(1);
+	transition:transform 0.5s, opacity 0.5s;
+}
+.box-project:hover i{
+	opacity: 1;
+	font-size: 50px;
+}
+.box-project:hover img{
+	opacity:0.7;
+	transform: scale(1.10);
+}
 
 /*----------SECTION CONTACT---------------*/
 #my-contact{
@@ -243,7 +274,7 @@ header{
 	padding: 25px 0;
 }
 .box-contact:hover{
-	border:1px solid #1abc9c;
+	box-shadow: 0 0 5px 3px #16a085;
 	cursor:pointer;
 }
 .box-contact h3{
@@ -252,6 +283,9 @@ header{
 .box-contact p{
 	font-size: 1rem;
 	font-weight: var(--font-normal);
+}
+.form-control{
+	outline: none !important;
 }
 #my-contact .btn-send{
 	border-radius:10px;
