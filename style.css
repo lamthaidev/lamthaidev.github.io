@@ -132,9 +132,10 @@ header{
 	position:relative;
 	margin-bottom:10px;
 }
-.cicle-skill span{
+.cicle-skill .number{
 	position:absolute;
 	color: #2c3e50;
+	font-weight: 700;
 	top:50%;
 	left:50%;
 	transform: translate(-50%,-50%);
@@ -142,7 +143,10 @@ header{
 .progress-bar{
 	background-color:#1abc9c !important;
 	font-weight: bold !important;
+	flex-direction: row !important;
+	line-height: 1.5rem !important;
 }
+
 .tech-skills p{
 	margin-bottom:5px !important;
 	margin-top:35px;
@@ -323,5 +327,23 @@ footer{
 	opacity: 0;
 }
 .js--wp-about .animated{
+	opacity: 1;
+}
+.js--wp-job{
+	opacity: 0;
+}
+.js--wp-job .animated{
+	opacity: 1;
+}
+.js--wp-portfolio{
+	opacity: 0;
+}
+.js--wp-portfolio .animated{
+	opacity: 1;
+}
+.js--wp-contact{
+	opacity: 0;
+}
+.js--wp-contact .animated{
 	opacity: 1;
 }
