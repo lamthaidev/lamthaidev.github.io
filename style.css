@@ -307,3 +307,21 @@ footer{
 	height: 70px;
 	line-height: 70px;
 }
+/*----------SCROLL BACK TO TOP-----*/
+.BacktoTop{
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	cursor: pointer;
+}
+ .fa-arrow-circle-up{
+	 font-size: 50px;
+ 		color: #16a085;
+ }
+ /*----------ANIMATION-----*/
+.js--wp-about{
+	opacity: 0;
+}
+.js--wp-about .animated{
+	opacity: 1;
+}
