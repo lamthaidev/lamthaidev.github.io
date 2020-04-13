@@ -146,6 +146,38 @@ header{
 	flex-direction: row !important;
 	line-height: 1.5rem !important;
 }
+.progress1{
+	animation-name: progress1;
+	animation-duration: 4s;
+}
+@keyframes progress1 {
+  0%   {width:0;}
+  100% {width:85%;}
+}
+.progress2{
+	animation-name: progress2;
+	animation-duration: 4s;
+}
+@keyframes progress2 {
+  0%   {width:0;}
+  100% {width:80%;}
+}
+.progress3{
+	animation-name: progress3;
+	animation-duration: 4s;
+}
+@keyframes progress3 {
+  0%   {width:0;}
+  100% {width:70%;}
+}
+.progress4{
+	animation-name: progress4;
+	animation-duration: 4s;
+}
+@keyframes progress4 {
+  0%   {width:0;}
+  100% {width:75%;}
+}
 
 .tech-skills p{
 	margin-bottom:5px !important;
@@ -323,27 +355,16 @@ footer{
  		color: #16a085;
  }
  /*----------ANIMATION-----*/
-.js--wp-about{
+.js--wp-about,
+.js--wp-job,
+.js--wp-portfolio,
+.js--wp-contact
+{
 	opacity: 0;
 }
-.js--wp-about .animated{
-	opacity: 1;
-}
-.js--wp-job{
-	opacity: 0;
-}
-.js--wp-job .animated{
-	opacity: 1;
-}
-.js--wp-portfolio{
-	opacity: 0;
-}
-.js--wp-portfolio .animated{
-	opacity: 1;
-}
-.js--wp-contact{
-	opacity: 0;
-}
+.js--wp-about,
+.js--wp-job,
+.js--wp-portfolio,
 .js--wp-contact .animated{
 	opacity: 1;
 }
